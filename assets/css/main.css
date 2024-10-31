@@ -1,0 +1,349 @@
+
+.mainwp-seopress-tab-content .column {
+  border-bottom: 1px solid #cecece; 
+  padding-bottom: 20px; 
+  margin-bottom: 20px;
+}
+
+.mainwp-seopress-tab-content .column div,
+.mainwp-seopress-tab-content .column div div {
+  margin-top: 5px;
+}
+
+#mainwp-seopress-titles-tabs-content .ui.label.tag {
+	display: flex;
+	align-items: center;
+}
+
+#mainwp-seopress-titles-tabs-content .ui.button {
+	display: inline-flex;
+	align-items: center;
+}
+
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-home table tr:not(:first-child) td.ui.input,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-post-types table td .seopress_wrap_single_cpt {
+	display: flex;
+	flex-direction: column;
+}
+
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-post-types table tr th,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-archives table tr th,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-taxonomies table tr th,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-taxonomies .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-local-business .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-dublin-core .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-structured-data-types .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-google-inspect-url .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-breadcrumbs .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-woocommerce .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-robots-txt .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-google-news .feature-state,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-post-types .feature-state {
+	display: none;
+}
+
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-home table tr:not(:first-child) td.ui.input .wrap-tags,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-breadcrumbs .wrap-tags {
+	margin-top: 10px;
+}
+
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-home table tr:not(:first-child) td.ui.input textarea {
+	height: 110px;
+}
+
+#mainwp-seopress-titles-tabs-content .sp-wrap-tag-variables-list {
+	position: relative;
+	float: left;
+	display: none;
+}
+
+#mainwp-seopress-titles-tabs-content .sp-wrap-tag-variables-list .sp-tag-variables-list {
+	position: absolute;
+    left: 350px;
+    width: 300px;
+    z-index: 100;
+    top: 26px;
+    height: 300px;
+    z-index: 100;
+    overflow: auto;
+    background: #fff;
+	border: 1px solid rgba(220, 220, 222, 0.4);
+    box-shadow: 0 2px 6px rgb(0 0 0 / 5%);
+    border-radius: 2px;
+    list-style: none;
+    padding: 0;
+}
+
+#mainwp-seopress-titles-tabs-content .sp-wrap-tag-variables-list .sp-tag-variables-list li {
+	padding: 8px 12px;
+    cursor: pointer;
+    margin: 0;
+    border-bottom: 1px solid rgba(220, 220, 222, 0.4);
+}
+#mainwp-seopress-titles-tabs-content .sp-wrap-tag-variables-list .sp-tag-variables-list li span {
+	font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 2px;
+	display: block;
+}
+
+#mainwp-seopress-titles-tabs-content .sp-wrap-tag-variables-list .sp-tag-variables-list li:after {
+	content: attr(data-value);
+    display: inline-block;
+    background: #e9ecef;
+    padding: 1px 5px;
+    color: #7fb100;
+    font-family: Menlo,Monaco,Andale Mono,Courier New,monospace;
+    border-radius: 3px;
+    font-size: 11px;
+}
+
+#mainwp-seopress-titles-tabs-content  #mainwp-seopress-titles-home tr:last-child .sp-wrap-tag-variables-list .sp-tag-variables-list {
+	left: 108px;
+}
+
+#mainwp-seopress-titles-tabs-content  .mainwp-seopress-tab-content:not(#mainwp-seopress-titles-home) .wrap-tags .sp-wrap-tag-variables-list .sp-tag-variables-list {
+	left: 0;
+}
+
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-post-types label {
+	width: auto;
+	height: auto;
+	font-style: italic;
+    font-size: 11px;
+    font-weight: 400;
+	color: #1e1e1e;
+}
+
+#mainwp-seopress-titles-post-types p.description {
+	margin-top: 10px;
+	display: flex;
+    align-items: center;
+}
+
+#mainwp-seopress-titles-post-types p.description a {
+	margin-left: 5px;
+	color: #6d9800;
+	font-weight: bold;
+	opacity: 1;
+}
+
+#mainwp-seopress-titles-post-types p.description span {
+	font-size: 18px;
+	color: #6d9800;
+	opacity: 1;
+}
+
+#mainwp-seopress-titles-post-types .seopress_wrap_single_cpt .wrap-tags,
+#mainwp-seopress-titles-taxonomies .wrap-tags,
+#mainwp-seopress-titles-archives .wrap-tags {
+	margin: 10px 0 20px 0;
+}
+
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-archives .form-table td textarea,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-robots-txt .form-table td textarea,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-htaccess .form-table td textarea,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-rss .form-table td textarea,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-google-inspect-url .form-table td textarea,
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-titles-taxonomies .form-table td textarea {
+	width: 100%;
+}
+
+.mainwp-seopress-tab-content .seopress-help a {
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.mainwp-seopress-tab-content .seopress-help span {
+	color: #7fb100;
+}
+
+#mainwp-seopressxml-html-sitemap-tabs-content .form-table select,
+.mainwp-seopress-social-networks-content .form-table select,
+.mainwp-seopress-instant-indexing-content .form-table select,
+.mainwp-seopress-advanced-content .form-table select,
+.mainwp-seopress-pro-content .form-table select,
+.mainwp-seopress-analytics-content .form-table select {
+	max-width: 100%;
+	appearance: auto;
+}
+
+.form-table {
+    width:100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+}
+
+.mainwp-seopress-social-networks-content .form-table #seopress_social_knowledge_img_upload,
+.mainwp-seopress-social-networks-content .form-table #seopress_social_fb_img_upload,
+.mainwp-seopress-social-networks-content .form-table #seopress_social_twitter_img_upload,
+.mainwp-seopress-pro-content .form-table #seopress_rich_snippets_publisher_logo_upload,
+.mainwp-seopress-instant-indexing-content .form-table button.seopress-instant-indexing-refresh-api-key {
+	margin-top: 10px !important;
+}
+
+.mainwp-seopress-instant-indexing-content .form-table textarea,
+.mainwp-seopress-analytics-content .form-table textarea {
+	width: 100%;
+}
+
+.mainwp-seopress-analytics-content p.description,
+.mainwp-seopress-advanced-content p.description,
+.mainwp-seopress-pro-content p.description,
+.mainwp-seopress-instant-indexing-content p.description {
+	width: 100%;
+	max-width: 100%;
+	margin-top: 10px;
+	line-height: 2;
+}
+
+.mainwp-seopress-analytics-content p.description a,
+.mainwp-seopress-advanced-content p.description a,
+.mainwp-seopress-pro-content p.description a,
+.mainwp-seopress-instant-indexing-content p.description a {
+	color: #7fb100;
+	opacity: 1;
+}
+
+.mainwp-seopress-pro-content p.description {
+	margin-bottom: 5px !important;
+}
+
+.mainwp-seopress-instant-indexing-content .wrap-sp-progress {
+    max-width: 100%;
+}
+
+.mainwp-seopress-instant-indexing-content .sp-progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: 0.25rem 0.25rem 0 0;
+    margin: -15px 0 0 0;
+}
+
+.mainwp-seopress-instant-indexing-content .sp-progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #2271b1;
+    transition: width .6s ease;
+}
+
+.mainwp-seopress-instant-indexing-content .wrap-seopress-counters {
+    text-align: right;
+    background: #e9ecef;
+    padding: 2px 5px;
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-robots-txt .form-table td textarea {
+	margin-bottom: 10px;
+}
+#mainwp-seopress-titles-tabs-content #mainwp-seopress-pro-robots-txt .wrap-tags button {
+	margin-bottom: 10px !important;
+}
+
+/* The switch - the box around the slider */
+.wrap-toggle-checkboxes {
+    position: relative !important;
+    display: inline-block;
+    width: 3.5rem;
+    height: 1.5rem;
+  }
+
+  /* Hide default HTML checkbox */
+  .wrap-toggle-checkboxes input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  .feature-state {
+    position: absolute;
+    width: 500px;
+    left: 50px;
+    top: 0px;
+}
+
+  /* The slider */
+  .wrap-toggle-checkboxes label {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .wrap-toggle-checkboxes label:before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    left: 4px;
+    bottom: 2.2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  .wrap-toggle-checkboxes input:checked + label {
+    background-color: #7fb100;
+  }
+
+  .wrap-toggle-checkboxes input:focus + label {
+    box-shadow: 0 0 1px #7fb100;
+  }
+
+  .wrap-toggle-checkboxes input:checked + label:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  /* Rounded sliders */
+  .wrap-toggle-checkboxes label{
+    border-radius: 34px;
+  }
+
+  .wrap-toggle-checkboxes label:before {
+    border-radius: 50%;
+  }
+
+@media print {
+    * {
+        -webkit-print-color-adjust: exact !important; /* Chrome, Safari, Edge */
+        color-adjust: exact !important; /*Firefox*/
+    }
+    .ui.message, .mainwp-seopress-titles-menu, .mainwp-side-content, .mainwp-sub-submenu, .mainwp-page-navigation, #mainwp-top-header, .mainwp-nav-wrap, h2.header {
+        display: none !important;
+    }
+	#mainwp-seopress-titles-tabs-content {
+		width: 100% !important;
+	}
+	.mainwp-content-wrap  {
+		margin-left: 0 !important;
+	}
+	.mainwp-main-content {
+		width:  100% !important;
+		border-right: none !important;
+	}
+    #wpcontent, #wpfooter, #seopress-tabs.wrap, .seopress-styles .seopress-option {
+        margin: 0 !important;
+    }
+    #seopress-page-speed-results .ps-audit .ps-audit-desc {
+        display: block !important;
+        height: 100% !important;
+    }
+}
